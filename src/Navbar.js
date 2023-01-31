@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1>CYF Chat</h1>
+      <h1>fatemeh-node-react-chat </h1>
       <div>
         <Link className="link" to="/">
           Home

@@ -5,10 +5,10 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #c27b7b;
 }
 .navbar h1 {
-  color: #39141f;
+  color: #cf2746;
 }
 
 .link {
@@ -18,6 +18,7 @@
   font-size: large;
 }
 .navbar .link:hover {
+ 
   color: #f1356d;
 }
 
@@ -26,7 +27,7 @@
   height: 400px;
   margin: 50px auto;
   border-radius: 5px;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 15px -5px rgba(215, 21, 156, 0.3);
   padding: 15px;
 }
 /* 
@@ -43,6 +44,7 @@ textarea {
   border-radius: 3px;
   box-sizing: border-box;
   display: block;
+   box-shadow: 3px 3px 15px -5px rgba(215, 21, 156, 0.3);
 }
 
 textarea {
@@ -55,5 +57,5 @@ button {
   border-radius: 8px;
   cursor: pointer;
   color: rgb(255, 250, 250);
-  background-color: #175319;
+  background-color: #d550ca;
 }
