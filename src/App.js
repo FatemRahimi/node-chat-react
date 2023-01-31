@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Message from "./Message";
+import Navbar from "./Navbar";
+import Form from "./Form";
 
 function App() {
+  //, timeSent: new Date().toLocaleDateString()
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="body-wrapper">
+              <h2>Send a message</h2>
+
+              <Form />
+            </div>
+          }
+        />
+        <Route path="/message" element={<Message />} />
+      </Routes>
     </div>
   );
 }
