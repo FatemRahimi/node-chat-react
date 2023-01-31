@@ -17,7 +17,7 @@ function App() {
           path="/"
           element={
             <div className="body-wrapper">
-              <h2>Send a message</h2>
+              <h2> Please Send a message</h2>
 
               <Form />
             </div>
